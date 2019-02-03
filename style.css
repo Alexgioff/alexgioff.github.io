@@ -1,0 +1,61 @@
+*::after,
+*::before,
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body,
+html {
+  width: 100vw;
+  height: 100vh;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+.bg{
+  background-image: url('./header.jpg');
+  background-repeat:no-repeat;
+  background-size:cover;
+  background-position:center;
+}
+
+.container {
+  height: 100vh;
+}
+
+.head {
+  font-weight: 300;
+  font-size: 2rem;
+  margin-top:9vh;
+}
+
+.form{
+  margin-top: 29vh;
+}
+
+.btn-primary{
+  background-color: orangered;
+  border-color: orangered;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-weight: 100;
+  transition: all .25s ease-in;
+
+}
+
+.btn-primary:active,
+.btn-primary:focus{
+  outline: none;
+}
+
+.btn-primary:hover{
+  background-color: orange;
+  border-color: orange;
+  transition: all .25s ease-in;
+}
